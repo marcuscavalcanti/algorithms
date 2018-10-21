@@ -28,7 +28,7 @@
 		return true ? $new_word1 === $new_word2 : false;
 	}
 	
-	print_r(check_words_equal_first_case("programming", "programming"));
+	check_words_equal_first_case("programming", "programming");
 	
 
 ?>
