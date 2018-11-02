@@ -1,8 +1,9 @@
-Compress the given string abcaaabbb to return abca3b3.
+Compress the given string "abcaaabbb" to "abca3b3".
 
 Testing cases:
 
 aaabaaaaccaaaaba -> a3ba4c2a4ba
+
 abcd -> abcd
 
 

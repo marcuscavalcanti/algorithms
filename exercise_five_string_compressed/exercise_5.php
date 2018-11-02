@@ -32,8 +32,12 @@
 	//$string = compress_string("abcd");
 	//$string_compressed = "abcd";
 
-	$string = compress_string("abbbbccdeffffg");
-	$string_compressed = "ab4c2def4g";
+	//$string = compress_string("abbbbccdeffffg");
+	//$string_compressed = "ab4c2def4g";
+
+	$string = compress_string("aaabaaaaccaaaaba");
+	$string_compressed = "a3ba4c2a4ba";
+	
 
 	$ret = $string === $string_compressed ? true : false;
 
